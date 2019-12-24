@@ -26,11 +26,30 @@
     }
 }
 
-@media (max-width: 1124px){
-    .top_info{
-        min-width: 425px;
+
+    
+@media (max-width: 1105px){
+    .reviews-slider {
+        margin-top: 60px;
+    }
+    .reviews-box{
+        max-width: 520px;
+        margin: 0 auto;
     }
 
+}
+
+@media (max-width: 1065px){
+.top_info{
+    min-width: 425px;
+}
+    .footer__inner{
+    flex-wrap: wrap;
+}
+.footer-col__logo{
+    width: 100%;
+    margin-bottom: 30px;
+}
 }
 @media (max-width: 992px){
     .menu__list{
@@ -84,18 +103,38 @@
             margin-right: 0;
             margin-bottom: 75px;
         }
-        .top{
+        .top,
+        .reviews,
+        .price{
             padding-top: 50px;
             padding-bottom: 80px;
             }
             .price-item{
                 max-width: 100%;}
-            .price{
-                padding: 50px 0 80px;
-            }
-    
-           
+                .footer-form{
+                    width: 100%;
+                    margin-top: 30px;
+                }
+                .footer__inner {
+                    
+                    display: flex;
+                    justify-content: flex-start;
+            }   
+        @media (max-width: 580px){
+            .reviews-box {
+                display:block;
         }
+            .reviews-box__images{
+                width: 100%;
+                min-height: 200px;
+            }    
+            .reviews-box__content {
+                width: 100%;
+                padding: 20px;
+                min-height: 260px;
+            }
+        }
+
         
         
         
@@ -110,12 +149,25 @@
                     font-size: 30px;
                     line-height: 40px;
                 }
+                .top-images__circle {
+                  
+                    top: -30px;
+                    right: 16px;
+                }
+            .footer-menu{
+                margin-bottom: 30px;
+                width: 100%;
             }
+            .footer-form{
+                margin-top: 0;
+            }    
+        }
+
+
 
         @media (min-width: 320px){
         .top-images__circle {
-            width: 160px;
-            height: 160px;
+          
             top: -32px;
             right: -2px;
         }
